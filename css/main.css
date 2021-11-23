@@ -125,6 +125,7 @@ nav a.live {
 
 nav a.live:hover {
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -220,8 +221,6 @@ button:hover {
     color: #4EB722;
     text-decoration: underline;
     cursor: pointer;
-    background-color: #111;
-
 }
 
 .snippet {
