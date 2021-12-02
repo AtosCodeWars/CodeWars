@@ -20,9 +20,26 @@
             <a href='../previous.html'>Previous Code Wars</a>
         </nav>
         <section class="py-5 text-center container">
-            <h2>Cypher Challenge</h2>
-                <p>AA</p>
+            <h2>SQL Challenge #1</h2>
+                <p>Welcome to the SQL Challenge.</p>
             <!-- challenge html code  -->
+            <div>
+                <h3>Database Architecture</h2>
+                <img src="../../img/SQLChallenges/DB_Architecture.png">
+                <p>Decrypt the following text and write down the value in the input</p>
+                <img src="../../img/SQLChallenges/SQL3Tables.png">
+                <br />
+                <br />
+                <p>From the following table, write a SQL query to find those movies, which was made before 1998. Return movie title.</p>
+                <!-- <input style="width: 500px;"> -->
+                <form enctype="multipart/form-data" id="myForm" method="post"
+                    action="https://us-central1-al1x-cat-development-6841.cloudfunctions.net/cipher">
+                    <input type="hidden" id="number" name="number" value="0">
+                    <input type="text" id="key" name="key">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+                
         </section>
         <footer>Powered by <a target="_blank" href='https://mkhatiri.github.io/'>KHATIRI Mohammed</a></footer>
         <script src="../js/main.js" type="text/javascript"></script>
