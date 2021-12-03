@@ -33,7 +33,7 @@
                 <h2>From the following tables, write a SQL query to find the actors who played a role in the movie 'Annie Hall'. Return all the fields of actor table.</h2>
                 <!-- <input style="width: 500px;"> -->
                 <form enctype="multipart/form-data" id="myForm" method="post"
-                    action="https://us-central1-al1x-cat-development-6841.cloudfunctions.net/cipher">
+                    action="https://us-central1-al1x-cat-development-6841.cloudfunctions.net/test-tag">
                     <p>Select  <input name="1" type="text" style="width:300px" /></p>
                     <p>From <input name="2" type="text" style="width:300px"/></p>
                     <p>Where <input name="3" type="text" style="width:300px"/> IN (</p>
@@ -45,6 +45,7 @@
                     <p>Where <input name="9" type="text" style="width:300px"/> = "Annie Hall"</p>
                     <p>));</p>
                     <input type="submit" value="Submit">
+                    <input type="hidden" id="number" name="number" value="1">
                 </form>
             </div>
                 
